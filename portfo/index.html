@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button id="toggleMode">Toggle Dark Mode</button>
+
+  <header>
+    <h1>My Portfolio</h1>
+    <p style="max-width:700px;">
+      Hi,MYSELF  SONAL j 
+       welcome to my personal portfolio.
+        I’m a student learning web development,solve real world problems ,i have attended many Hackfest (SAP winnner in 2025 held at tamil nadu ).
+        This page shows who I am, what I can do, and a few small projects I’ve built while learning.
+        Use the dark mode button if you prefer a darker screen, 
+        try the contact form at the bottom to send a quick message.
+        i will always try to contact you back as soon as possible. 
+    </p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I enjoy building simple, useful web tools and experimenting with AI projects. I focus on learning practical HTML, CSS, and JavaScript by making things that solve small problems or demonstrate new ideas.
+    </p>
+    <p>
+      I’m open to feedback and collaboration. If you’d like to get in touch, please use the contact form below — I usually respond within a few days.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML-- structure and semantic markup</li>
+      <li>CSS -- layout, responsive design, and simple animations</li>
+      <li>JavaScript --DOM interaction, basic form handling, and small client-side logic</li>
+      <li>Python </li>
+      <li>data analyses</li>
+      <li>power BI </li>
+      <li>problem solving </li>
+      <li>software testing </li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+       they are short,  descriptions of a few projects I made to learn and practise:
+    </p>
+    <ul>
+      <li><strong>AI Emotion Detection</strong> — a small demo that analyses text or simple inputs to guess emotions and display results clearly.</li>
+      <li><strong>AI Resume Builder</strong> — a tool that helps format and generate a clean resume from plain text or bullet points.</li>
+      <li><strong>AI Fake Job Offer Detector</strong> — a project that looks for common signs of scam job postings. (Award: Winner in SAP Hackfest.)</li>
+    </ul>
+    <p>
+      These projects are prototypes made for learning. They are not production-ready, but they show the ideas I am exploring.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a question or want to collaborate? Send a short message and I’ll get back to you.</p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+    <p style="font-size:0.9rem;color:#666;">
+      Note: This form is client-side only for demo purposes. It shows a success message when fields are filled, but it does not send emails unless you connect it to a backend or third‑party service.
+    </p>
+  </section>
+
+  <footer style="margin-top:2rem;color:#444;">
+    <small>Thanks for visiting — feel free to explore and suggest improvements.</small>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+
+body { font-family: Arial, sans-serif; padding: 1rem; line-height:1.4; }
+.dark-mode { background:#111; color:#eee; }
+header h1 { margin:0 0 1rem 0; }
+section { margin: 1rem 0; }
+form { max-width:600px; }
+input, textarea { width:100%; padding:8px; margin:6px 0; box-sizing:border-box; }
+button { padding:8px 12px; }
+#formMessage { margin-top:8px; font-weight:600; }
+
+body { font-family: Arial, sans-serif; padding: 1rem; line-height:1.4; background: #fff; color:#222; transition: background .25s ease, color .25s ease; }
+
+header {
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #e8f8ff 0%, #ffffff 100%);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: background .25s ease, color .25s ease;
+}
+
+header h1 {
+  margin: 0 0 .5rem 0;
+  color: #0b3d91; 
+}
+
+header p {
+  color: #234e70; 
+}
+
+h2 {
+  color: #1a73e8; 
+  margin-top: 1rem;
+}
+
+
+h2:hover {
+  color: #1558b0;
+}
+
+
+.dark-mode {
+  background: #0f1720;
+  color: #e6eef8;
+}
+
+.dark-mode header {
+  background: linear-gradient(90deg, #071228 0%, #0a1b2a 100%);
+  box-shadow: none;
+}
+
+.dark-mode header h1 {
+  color: #e6f6ff; 
+}
+
+.dark-mode header p {
+  color: #c7e6ff;
+}
+
+.dark-mode h2 {
+  color: #9fd3ff;
+}
+
